@@ -1,0 +1,5 @@
+AuthName "Please enter your UserName here."
+AuthType Basic
+AuthUserFile D:/visionvideos/.htpasswd
+AuthGroupFile /dev/null
+require user ctps

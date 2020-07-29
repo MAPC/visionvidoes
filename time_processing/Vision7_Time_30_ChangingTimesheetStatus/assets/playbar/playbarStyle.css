@@ -1,0 +1,65 @@
+.playButton
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.playButton:hover
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.playbarBackGround
+{
+	-webkit-box-shadow: 5px 5px 5px #aaa; 
+	-moz-box-shadow: 5px 5px 5px #aaa; 
+	box-shadow: 5px 5px 5px #aaa; 
+	height:40px;
+}
+.playbarSmallButton
+{
+	width:27px;
+	height:27px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarSmallButton:hover {cursor:pointer;} 
+.playbarBigButton
+{
+	width:47px;
+	height:27px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarBigButton:hover {cursor:pointer;} 
+.playbarSlider
+{
+	width:82px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarSliderThumb
+{
+	position : absolute;
+	top : -10px;
+}
+.playbarSliderThumb:hover {cursor:pointer;}
